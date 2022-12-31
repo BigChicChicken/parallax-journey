@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+        <title>Parallax Journey</title>
+
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+
+        <section id="Choice">
+            <img alt="Dreamland" src="resources/Dreamland/Dreamland.png" />
+            <img alt="Underwater" src="resources/Underwater/Underwater.png" />
+        </section>
+
+        <section id="Dreamland" class="scene" aria-hidden="true" style="--zoom:0;">
+            <img alt="Dreamland" src="resources/Dreamland/Blur.png" />
+            <div class="container">
+                <img 
+                    style="--x:0%;--y:0%;--zoom-ratio:0;"
+                    alt="Background" 
+                    src="resources/Dreamland/1 - Background.png" 
+                />
+                <img 
+                    style="--x:0%;--y:-3%;--zoom-ratio:.1;"
+                    alt="Moon" 
+                    src="resources/Dreamland/2 - Moon.png"
+                />
+                <img 
+                    style="--x:-3%;--y:3%;--zoom-ratio:1;"
+                    alt="Cloud"
+                    src="resources/Dreamland/3 - Cloud.png"
+                />
+                <img 
+                    style="--x:5.5%;--y:1.5%;--zoom-ratio:1.5;"
+                    alt="Far Rock"
+                    src="resources/Dreamland/4 - Far Rock.png"
+                />
+                <img 
+                    style="--x:0.5%;--y:-1%;--zoom-ratio:2;"
+                    alt="Side Rock"
+                    src="resources/Dreamland/5 - Side Rock.png"
+                />
+                <img 
+                    style="--x:3%;--y:0%;--zoom-ratio:2.5;"
+                    alt="Main Rock"
+                    src="resources/Dreamland/6 - Main Rock.png"
+                />
+                <img 
+                    style="--x:20%;--y:20%;--zoom-ratio:3;"
+                    alt="Floating Rock"
+                    src="resources/Dreamland/7 - Floating Rock.png"
+                />
+                <img 
+                    style="--x:-20%;--y:-50%;--zoom-ratio:3.5;"
+                    alt="Bird"
+                    src="resources/Dreamland/8 - Bird.png"
+                />
+                <img 
+                    style="--x:0%;--y:50%;--zoom-ratio:4;"
+                    alt="Foreground"
+                    src="resources/Dreamland/9 - Foreground Rock.png"
+                />
+            </div>
+            
+            <span class="back"></span>
+            <span class="zoom"></span>
+        </section>
+        
+        <section id="Underwater" class="scene" aria-hidden="true" style="--zoom:0;">
+            <img alt="Underwater" src="resources/Underwater/Blur.png" />
+            <div class="container">
+                <img
+                    style="--x:0%;--y:0%;--zoom-ratio:0;"
+                    alt="Background" 
+                    src="resources/Underwater/1 - Background.png" 
+                />
+                <img
+                    style="--x:0%;--y:2%;--zoom-ratio:0.5;"
+                    alt="Structure" 
+                    src="resources/Underwater/2 - Structure.png"
+                />
+                <img
+                    style="--x:4%;--y:6%;--zoom-ratio:1;"
+                    alt="Far Rock"
+                    src="resources/Underwater/3 - Far Rock.png"
+                />
+                <img
+                    style="--x:-3%;--y:3.5%;--zoom-ratio:1.5;"
+                    alt="Middle Rock"
+                    src="resources/Underwater/4 - Middle Rock.png"
+                />
+                <img 
+                    style="--x:-3.75%;--y:-5.5%;--zoom-ratio:2;"
+                    alt="Figure"
+                    src="resources/Underwater/5 - Figure.png"
+                />
+                <img 
+                    style="--x:-3%;--y:3.5%;--zoom-ratio:2.5;"
+                    alt="Shark"
+                    src="resources/Underwater/6 - Shark.png"
+                />
+                <img 
+                    style="--x:0%;--y:0%;--zoom-ratio:3;"
+                    alt="Side Rock"
+                    src="resources/Underwater/7 - Side Rock.png"
+                />
+                <img 
+                    style="--x:40%;--y:-25%;--zoom-ratio:3.5;"
+                    alt="Fish"
+                    src="resources/Underwater/8 - Fish.png"
+                />
+                <img 
+                    style="--x:10%;--y:10%;--zoom-ratio:4;"
+                    alt="Foreground"
+                    src="resources/Underwater/9 - Foreground.png"
+                />
+            </div>
+            
+            <span class="back"></span>
+            <span class="zoom"></span>
+        </section>
+
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
