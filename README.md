@@ -1,6 +1,6 @@
 # parallax-journey
 
-A simple gallery of different scenes to experience the parralax effect.
+A simple gallery of different scenes to experience the parallax effect.
 
 [LIVE DEMO](https://bigchicchicken.github.io/parallax-journey/)
 
